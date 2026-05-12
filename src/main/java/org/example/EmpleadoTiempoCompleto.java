@@ -12,6 +12,6 @@ public class EmpleadoTiempoCompleto extends Empleado {
     @Override
     public double calcularSalario() {
         // Simplemente devuelve el salario base, no hay horas extras que calcular
-        return SalarioBase;
+        return salarioBase;
     }
 }

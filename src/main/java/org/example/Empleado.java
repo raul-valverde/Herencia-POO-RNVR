@@ -4,7 +4,7 @@ package org.example;
 public class Empleado {
   // Atributos protegidos para que sus hijos puedan verlos
     protected String nombre;
-    protected double SalarioBase;
+    protected double salarioBase;
 
     // Constructores
 
@@ -13,12 +13,12 @@ public class Empleado {
 
     public Empleado(String nombre, double salarioBase) {
         this.nombre = nombre;
-        SalarioBase = salarioBase;
+        this.salarioBase= salarioBase;
     }
 
     // Metodo
     public double calcularSalario() {
-        return SalarioBase;
+        return salarioBase;
     }
 
     public String getNombre() {
