@@ -6,7 +6,7 @@ public class Empleado {
     protected String nombre;
     protected double SalarioBase;
 
-    // Constructor: Para que al nacer, el empleado ya tenga nombre y salario base
+    // Constructores
 
     public Empleado() {
     }
@@ -16,7 +16,7 @@ public class Empleado {
         SalarioBase = salarioBase;
     }
 
-    // Método general que cada hijo adaptará a su manera
+    // Metodo
     public double calcularSalario() {
         return SalarioBase;
     }
